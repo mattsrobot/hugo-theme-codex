@@ -54,4 +54,8 @@
 .post-list__container {
   display: flex;
   justify-content: space-between;
+
+  @media screen and (max-width: $medium - 1) {
+    padding-top: 3rem !important;
+  }
 }
