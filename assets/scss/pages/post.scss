@@ -18,13 +18,17 @@ $tocBreakpoint: 1024px;
   max-width: 34rem;
   margin: 0 auto;
 
+  @media screen and (max-width: $medium - 1) {
+    padding-top: 3rem !important;
+  }
+
   h2,
   h3 {
     position: relative;
     padding-top: 10px;
 
     .anchor {
-      top: .5rem;
+      top: 0.5rem;
       text-decoration: none;
       position: absolute;
       left: -1rem;
